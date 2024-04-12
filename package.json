@@ -1,10 +1,10 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@sajanghuman/component-library": "^1.1.0",
-    "@SajanGhuman/component-library": "npm:@sajanghuman/component-library@^3.0.0",
+    "@SajanGhuman/component-library": "npm:@sajanghuman/component-library@^4.0.0",
     "@storybook/react": "^8.0.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
