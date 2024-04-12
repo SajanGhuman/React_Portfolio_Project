@@ -7,6 +7,8 @@ WORKDIR /singh_sajanpreet_final_site
 # Copy the package.json file and package-lock.json file
 COPY package*.json ./
 
+RUN echo "//npm.pkg.github.com/:_authToken=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" > ~/.npmrc
+
 # Install dependencies
 RUN npm install
 
